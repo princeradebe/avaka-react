@@ -82,7 +82,7 @@ function Header() {
             </div>
             {/* <!-- END HERO TEXT  --> */}
         </div>
-    )
+    );
 }
 
 export default Header

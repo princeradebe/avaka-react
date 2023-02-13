@@ -1,4 +1,5 @@
-function Footer() {
+const Footer = () => {
+    const today = new Date();
     return (
         <footer className="bg-gradient-to-t from-[#cf5145] to-[#CB5050] mt-16">
             <div className="container mx-auto pt-6 lg:pt-16">
@@ -47,8 +48,8 @@ function Footer() {
                         <p>info@avaka.co.za</p>
                     </div>
                 </div>
-                <div className="flex mt-16 pb-6" title="footer copyright text">
-                    <p className="text-white mr-6">2021 (c) AVAKA. All rights reserved</p>
+                <div className="flex mt-16 pb-6 text-xs" title="footer copyright text">
+                    <p className="text-white mr-6"> © {today.getFullYear()} AVAKA. All rights reserved</p>
                     <a href="" className="text-white" > Privacy Policy</a>
                 </div>
             </div>

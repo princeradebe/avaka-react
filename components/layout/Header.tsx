@@ -1,5 +1,8 @@
-function Header() {
+import HeroCard from "../common/HeroCard";
+
+const Header = () => {
     return (
+
         <div className="bg-hero-pattern bg-cover mix-blend-normal relative">
             {/* <!-- MENU  --> */}
             <nav className="flex justify-between items-center container mx-auto py-0">
@@ -80,8 +83,10 @@ function Header() {
                     </div>
                 </div>
             </div>
+
             {/* <!-- END HERO TEXT  --> */}
         </div>
+
     );
 }
 

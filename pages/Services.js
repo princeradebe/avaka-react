@@ -1,4 +1,4 @@
-[
+const Services = [
     {
         "id": "1",
         "services": "Audit & Assurance `{'>'}`",
@@ -36,3 +36,4 @@
         "link": "./services/training.html"
     }
 ]
+export default Services;
